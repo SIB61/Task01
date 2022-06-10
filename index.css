@@ -43,11 +43,11 @@ header ul li a:hover {
       rgba(0, 71, 171, 0.9)
     ),
     url(./assets/bgimg.jpg);
-  height: 100vh;
+  height: 105vh;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  padding-left: 100px;
+  background-size: 110%;
+  padding-left: 150px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -79,11 +79,12 @@ header ul li a:hover {
   padding: 18px 38px;
   background-color: white;
   border: 0px;
-  color: rgba(0, 71, 171, 0.9);
+  color: rgba(0, 71, 171, 0.8);
   margin: 5px;
 }
 .homebutton1:hover {
   color: rgba(0, 71, 200, 1);
+  cursor: pointer;
 }
 
 .homebutton2 {
@@ -96,6 +97,7 @@ header ul li a:hover {
 }
 .homebutton2:hover {
   background-color: rgba(0, 71, 200, 1);
+  cursor: pointer;
 }
 .section2 {
   display: flex;
@@ -144,6 +146,9 @@ header ul li a:hover {
   border-color: white;
   border-style: solid;
   color: white;
+}
+.sec3griditem button:hover {
+  cursor: pointer;
 }
 .s3gip1 {
   font-size: 40px;
